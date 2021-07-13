@@ -2,7 +2,7 @@ fixture("Hook Test")
     .page("https://devexpress.github.io/testcafe/")
     .beforeEach(async t => {
         await t
-            .maximizeWindow()
+            
             .setTestSpeed(0.1)
             .setPageLoadTimeout(0);
     });
@@ -13,6 +13,7 @@ test
         .typeText("#developer-name","TAU")
         .click("#macos")
         .click("#submit-button")
+        .takeScreenshot();
 });
 
 
@@ -22,5 +23,15 @@ test
     await t
         .typeText("#developer-name","TAU")
         .click("#macos")
+        .click("#submit-button")
+});
+
+test
+.page("https://devexpress.github.io/testcafe/example/") 
+("Third Test", async t => {
+    await t
+        .typeText("#developer-name","TAU")
+        .click("#macos")
+        .takeElementScreenshot("#submit-button")
         .click("#submit-button")
 });

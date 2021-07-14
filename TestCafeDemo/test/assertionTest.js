@@ -8,6 +8,7 @@ fixture("First Fixture")
     .page("https://devexpress.github.io/testcafe/example/");
 
 test("First Test", async t => {
+    const developernameElement = await developerName.with({visibilityCheck:true})();
     await t
         .expect(developerName.value).eql('','input is empty')
         .typeText(developerName,"TAU")

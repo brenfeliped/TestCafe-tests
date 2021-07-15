@@ -1,0 +1,58 @@
+{
+  "uid" : "21720fa20ab9972",
+  "name" : "Assert Homes Page Test",
+  "fullName" : "Registration Fixture.Assert Homes Page Test",
+  "historyId" : "35a72d1b78b971ddda8b514b4a01f857",
+  "time" : {
+    "start" : 1626359675309,
+    "stop" : 1626359684986,
+    "duration" : 9677
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected true to be falsy",
+  "statusTrace" : "AssertionError: expected true to be falsy\n                \n                Browser: Chrome 91.0.4472.114 / Linux 0.0\n                \n                   14 |\n                   15 |test('Assert Homes Page Test', async t => {\n                   16 |    await t \n                   17 |        .expect(getURL()).eql(URL)\n                   18 |        .takeScreenshot()\n                 > 19 |        .expect(HomePage.subtitleHeader.exists).notOk();\n                   20 |\n                   21 |})\n                   22 |dataSet.forEach(data =>{\n                   23 |test('User Registration and Login Test', async t => {\n                   24 |    await t\n                \n                   at <anonymous> (/home/accountfy/Documents/TestCafe-tests/TestCafeDemo/test/RegistrationTest.js:19:49)\n                   at asyncGeneratorStep (/home/accountfy/Documents/TestCafe-tests/TestCafeDemo/test/RegistrationTest.js:5:271)\n                   at _next (/home/accountfy/Documents/TestCafe-tests/TestCafeDemo/test/RegistrationTest.js:5:609)\n                   at <anonymous> (/home/accountfy/Documents/TestCafe-tests/TestCafeDemo/test/RegistrationTest.js:5:774)\n                   at <anonymous> (/home/accountfy/Documents/TestCafe-tests/TestCafeDemo/test/RegistrationTest.js:5:515)\n                   at <anonymous> (/home/accountfy/Documents/TestCafe-tests/TestCafeDemo/test/RegistrationTest.js:15:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "Assert Homes Page Test"
+  }, {
+    "name" : "package",
+    "value" : "Registration Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 91.0.4472.114 / Linux 0.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "21720fa20ab9972.json",
+  "parameterValues" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+}

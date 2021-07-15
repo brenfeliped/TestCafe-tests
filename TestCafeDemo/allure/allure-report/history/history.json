@@ -1,0 +1,42 @@
+{
+  "c2a5c991406f4c0f868501b894fdbf4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a8003d6abf14033",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1626359705646,
+        "stop" : 1626359714964,
+        "duration" : 9318
+      }
+    } ]
+  },
+  "35a72d1b78b971ddda8b514b4a01f857" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21720fa20ab9972",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected true to be falsy",
+      "time" : {
+        "start" : 1626359675309,
+        "stop" : 1626359684986,
+        "duration" : 9677
+      }
+    } ]
+  }
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5a8003d6abf14033",
+  "name" : "User Registration and Login Test",
+  "time" : {
+    "start" : 1626359705646,
+    "stop" : 1626359714964,
+    "duration" : 9318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21720fa20ab9972",
+  "name" : "Assert Homes Page Test",
+  "time" : {
+    "start" : 1626359675309,
+    "stop" : 1626359684986,
+    "duration" : 9677
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

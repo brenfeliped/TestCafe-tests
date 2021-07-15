@@ -1,0 +1,57 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "User Registration and Login Test",
+    "uid" : "5a8003d6abf14033",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626359705646,
+      "stop" : 1626359714964,
+      "duration" : 9318
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  }, {
+    "name" : "User Registration and Login Test",
+    "uid" : "edcbabca835dbbb8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626359686312,
+      "stop" : 1626359697246,
+      "duration" : 10934
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  }, {
+    "name" : "User Registration and Login Test",
+    "uid" : "d00dc525ad10cadc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626359696307,
+      "stop" : 1626359706287,
+      "duration" : 9980
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  }, {
+    "name" : "Assert Homes Page Test",
+    "uid" : "21720fa20ab9972",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1626359675309,
+      "stop" : 1626359684986,
+      "duration" : 9677
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 91.0.4472.114 / Linux 0.0" ]
+  } ]
+}

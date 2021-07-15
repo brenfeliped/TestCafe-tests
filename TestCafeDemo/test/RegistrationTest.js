@@ -16,7 +16,7 @@ test('Assert Homes Page Test', async t => {
     await t 
         .expect(getURL()).eql(URL)
         .takeScreenshot()
-        .expect(HomePage.subtitleHeader.exists).ok();
+        .expect(HomePage.subtitleHeader.exists).notOk();
 
 })
 dataSet.forEach(data =>{
